@@ -4,9 +4,7 @@
     @font-face {
         font-family: Neonderthaw;
         src: url('Fontes/Neonderthaw-Regular.ttf')format('opentype');}
-
 .body{
-
     background: radial-gradient(rgba(255, 255, 255, 0.25) 0px, transparent 10px);
     background-color: #131313;
     background-size: 5px 5px;
@@ -37,7 +35,6 @@
     text-shadow: -2px 0 black, 0 2px black,
     2px 0 black, 0 -2px black;
 }
-
 .bloco{
     position: absolute;
     margin-top: 400px;
@@ -67,48 +64,6 @@
 }
 .c{
     margin-left: 580px;    
-}
-.d{
-    border-color:#ffdb58;
-    border-width: 3px;
-    position: absolute;
-    font-family: Berkshire;
-    background-color:#ffe279;
-    width: 20px;
-    height: 20px;
-    border-radius: 45%;
-    color:#ffdb58;
-    margin-top: 460px;
-    margin-left: 348px;
-}
-.d:after{
-    border-color:#ffe279;
-}
-.e{
-    border-color:#ffdb58;
-    border-width: 3px;
-    position: absolute;
-    font-family: Berkshire;
-    background-color:#ffe279;
-    width: 20px;
-    height: 20px;
-    border-radius: 45%;
-    color:#ffdb58;
-    margin-top: 460px;
-    margin-left: 525px;
-}
-.f{
-    border-color:#ffdb58;
-    border-width: 3px;
-    position: absolute;
-    font-family: Berkshire;
-    background-color:#ffe279;
-    width: 20px;
-    height: 20px;
-    border-radius: 45%;
-    color:#ffdb58;
-    margin-top: 460px;
-    margin-left: 725px;
 }
 .a1{
     position: absolute;
@@ -157,18 +112,6 @@
 .y2{
     margin-left: 545px;
 }
-
-#oper{
-    position: absolute;
-    background-color:#ffdb58;
-    font-style:bold;
-    font-size: 35px;
-    font-family: Neonderthaw;
-    margin-top: 370px;
-    margin-left: 365px;
-    width: 20px;
-    height: 20px;
-}
 .x1, .x2, .x3{
     position: absolute;
     color:#ffdb58;
@@ -186,7 +129,6 @@
 .x3{
     margin-left: 700px;
 }
-
 .bloco2{
     position: absolute;
     margin-top: 650px;
@@ -198,13 +140,11 @@
     border-radius: 20px;
     box-decoration-break: none;
 }
-
 .bloco3{
     margin-top: 1000px;
     width:1280px;
     height: 300px;
     background-color:#000000 ;
-
 }
 .operacoes{
     position: absolute;
@@ -215,7 +155,6 @@
     font-family:  Berkshire;
     margin-left: 0;
 }
-
 .p1{
     position: absolute;
     color:#000000;
@@ -244,7 +183,6 @@
     text-shadow:none;
     transition: 4.0s;
     transition-delay: 0.5s;
-
 }
 .p3{
     position: absolute;
@@ -261,15 +199,12 @@
     transition: 3.0s;
     transition-delay: 0.5s;
 }
-
 .copyright{
     color: azure;
     margin-left: 495px;
     position: absolute;
     margin-top:250px;
-
 }
-
 .botao1{
     border-color:#f1c72d;
     border-width: 3px;
@@ -285,9 +220,7 @@
     text-align: center;
     padding-left: 10px;
     color:#f1c72d;
- 
 }
-
 .botao2{
     border-color:#f1c72d;
     border-width: 3px;
@@ -303,9 +236,7 @@
     text-align: center;
     padding-left: 10px;
     color:#f1c72d;
- 
 }
-
 @media screen and (max-width: 640px){    
     .body{
         height: 700;
@@ -335,7 +266,6 @@
         text-shadow: -2px 0 black, 0 2px black,
         2px 0 black, 0 -2px black;
     }
-    
     #blocox{
         position: absolute;
         margin-top: 400px;
@@ -345,13 +275,10 @@
         width:400px;
         height:400px;
     }
-
-
     .copyright{
         color: azure;
         margin-left: 495px;
         position: absolute;
         margin-top:250px;
-    
     }
 }
