@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <hmtl lang="pt-br"></hmtl>
+<head>
+    <link rel="stylesheet" href="pitagoras.css">
+    <meta charset="UTF-8">
+    <title> Calculadora Pitágoras</title>
+    <link rel="icon" sizes="16x16" href="Site/Assets/favicon-16x16.png">
+   
+</head>
+
+<body class="body">
+    <img class="pit" src="Assets/pitagoras.png">
+    <p class="p"> Calculadora de Pitágoras</p>
+    <div class="bloco">
+        <img src="Assets/triangulo.png" height="330px" width="330px"> ,
+    </div> 
+    <p class="p2"> Prencha 2 das caixas e deixe uma vazia para encontrar esse valor. </p>
+    <p class="p3"> Aperte no circulo ao lado das 2 caixas escolhidas para selecionar.</p>
+        <div>
+        <input class="a" type="number" name="cateto a" autocomplete="off" id="catetoa" value="" placeholder="X"  step="any">
+        <input class="b" type="number" name="catetob" autocomplete="off" id="catetob" value="" placeholder="X"  step="any">
+        <input class="c" type="number" name="hipotenusa" autocomplete="off" id="hipotenusa" value="" placeholder="X">
+        </div>
+
+    <p class="a1"> Cateto A</p>
+    <p class="b1"> Cateto B</p>
+    <p class="c1"> Hipotenusa</p>
+    <p class="y1"> +</p> 
+    <p class="x1"> ²</p>
+    <p class="x2"> ²</p>
+    <p class="x3"> ²</p>
+    <p class="y2"> =</p>
+
+    <button class="botao1" onclick="calcular()">Calcular</button> &nbsp;          
+    <button class="botao2" onclick="mostrar('operacao1')">Ver/Ocultar Operação</button>
+      
+      
+        <div>
+            <p class="p1" id="Resultados"> Resultados </p>
+                <div class="bloco2" id="blocox">
+                    <ul id="resolucao">
+                        <div id="operacao1" class="mostrar" style="display: block;">
+                        <div id="operacoes" class="operacoes">h²= a²+ b² <br>h²= x²+ y²<br>h² = r + s | h² = z <br>h = √(z)<br>h ≅ t<br>
+                    </ul>
+                </div>
+        </div>
+
+
+    <footer class="bloco3">
+        <p class="copyright" >&copy; Copyright Calculadora de Pitágoras - 2022 </p>
+    </footer>
+
+    <script src="pitagoras.js"></script>
+
+</body>
+
+
